@@ -1,0 +1,11 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "autosycn.pbt";
+ 1 "..\\\u8c03\u7528\u75c5\u5386\u5939\\binglijia.pbt";
+ 2 "..\\\u78c1\u5171\u632f\u6392\u961f\u5e8f\u5217\\sequence.pbt";
+ 3 "E:\\yyhj\\yyhj.pbt";
+@end;
+DefaultTarget "..\\\u78c1\u5171\u632f\u6392\u961f\u5e8f\u5217\\sequence.pbt";
+DefaultRemoteTarget "..\\\u78c1\u5171\u632f\u6392\u961f\u5e8f\u5217\\sequence.pbt";

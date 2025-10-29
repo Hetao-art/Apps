@@ -1,0 +1,12 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "..\\\u723d\u7ea6\u63a7\u5236\\sykz.pbt";
+ 1 "hqms.pbt";
+ 2 "E:\\\u75c5\u533a\u5de5\u4f5c\u65e5\u5fd7\u8c03\u5f0f\\bqgzrq.pbt";
+ 3 "..\\\u78c1\u5171\u632f\u6392\u961f\u5e8f\u5217\\sequence.pbt";
+ 4 "..\\\u75c5\u533a\u5de5\u4f5c\u65e5\u5fd7\\bqgzrq.pbt";
+@end;
+DefaultTarget "..\\\u723d\u7ea6\u63a7\u5236\\sykz.pbt";
+DefaultRemoteTarget "..\\\u723d\u7ea6\u63a7\u5236\\sykz.pbt";

@@ -1,0 +1,12 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "..\\\u62a5\u8868\u5904\u7406\u5de5\u5177\\ykbb.pbt";
+ 1 "..\\\u533b\u4fdd\u836f\u54c1\u8c03\u6574\\ypyptz.pbt";
+ 2 "..\\\u773c\u79d1\u51c6\u5206\u5b50\u75c5\u5386-1\\ykbljl.pbt";
+ 3 "..\\hqms\\hqms.pbt";
+ 4 "..\\\u75c5\u7406\u63a5\u53e3\\tjblinterface.pbt";
+@end;
+DefaultTarget "..\\\u533b\u4fdd\u836f\u54c1\u8c03\u6574\\ypyptz.pbt";
+DefaultRemoteTarget "..\\\u533b\u4fdd\u836f\u54c1\u8c03\u6574\\ypyptz.pbt";

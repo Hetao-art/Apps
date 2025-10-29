@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "..\\..\\\u6e90\u7801\\DRGsPBExample\\drgspbexample.pbt";
+@end;
+DefaultTarget "..\\..\\\u6e90\u7801\\DRGsPBExample\\drgspbexample.pbt";
+DefaultRemoteTarget "..\\..\\\u6e90\u7801\\DRGsPBExample\\drgspbexample.pbt";

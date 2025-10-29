@@ -1,0 +1,9 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "ypyptz.pbt";
+ 1 "C:\\Users\\Administrator\\Desktop\\cccc\\jtdc.pbt";
+@end;
+DefaultTarget "C:\\Users\\Administrator\\Desktop\\cccc\\jtdc.pbt";
+DefaultRemoteTarget "C:\\Users\\Administrator\\Desktop\\cccc\\jtdc.pbt";

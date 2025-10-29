@@ -1,0 +1,13 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "dwckd.pbt";
+ 1 "..\\\u773c\u79d1\u51c6\u5206\u5b50\u75c5\u5386\\ykbljl.pbt";
+ 2 "..\\..\\\u62a5\u8868\u5904\u7406\u5de5\u5177\\ykbb.pbt";
+ 3 "..\\\u533b\u4fdd\u836f\u54c1\u8c03\u6574\u4e0e\u8c03\u4ef7\u5de5\u5177\\ypyptz.pbt";
+ 4 "..\\\u8bca\u95f4\u9884\u7ea6\u8f6e\u8be2\\zjyy.pbt";
+ 5 "..\\\u7ecf\u6d4e\u5206\u6790\\jjfx.pbt";
+@end;
+DefaultTarget "dwckd.pbt";
+DefaultRemoteTarget "dwckd.pbt";

@@ -1,0 +1,118 @@
+// ************************************************************************ //
+// 在文件中的类声明从 WSDL 文件中读取数据生成, 描述如下:
+// WSDL     : http://localhost:16921/Default.asmx?wsdl
+// 编码     : utf-8
+// 版本     : 1.0
+// (2016/6/22 15:13:16 - 1.33.2.5)
+// ************************************************************************ //
+
+unit Default;
+
+interface
+
+uses InvokeRegistry, SOAPHTTPClient, Types, XSBuiltIns;
+
+type
+
+  // ************************************************************************ //
+  // 下列类型, 提交至 WSDL 文件没有表现在文件中.
+  // 它们是其他类型表示或归类的任何一个别名[@]
+  // to but never[!] declared in the document. The types from the latter category
+  // typically map to predefined/known XML or Borland types; however, they could also
+  // 指示错误的 WSDL 文件声明失败或或导入概要类.
+  // ************************************************************************ //
+  // !:string          - "http://www.w3.org/2001/XMLSchema"
+
+  A                    = class;                 { "http://tempuri.org/" }
+  B                    = class;                 { "http://tempuri.org/" }
+
+
+
+  // ************************************************************************ //
+  // Namespace : http://tempuri.org/
+  // ************************************************************************ //
+  A = class(TRemotable)
+  private
+    FCallerId: WideString;
+  published
+    property CallerId: WideString read FCallerId write FCallerId;
+  end;
+
+
+
+  // ************************************************************************ //
+  // Namespace : http://tempuri.org/
+  // ************************************************************************ //
+  B = class(TRemotable)
+  private
+    FUserId: WideString;
+  published
+    property UserId: WideString read FUserId write FUserId;
+  end;
+
+
+  // ************************************************************************ //
+  // Namespace : http://tempuri.org/
+  // soapAction: http://tempuri.org/%operationName%
+  // transport : http://schemas.xmlsoap.org/soap/http
+  // binding   : DefaultSoap
+  // service   : Default
+  // port      : DefaultSoap
+  // URL       : http://localhost:16921/Default.asmx
+  // ************************************************************************ //
+  DefaultSoap = interface(IInvokable)
+  ['{AED0E89F-8208-2661-65B0-67A76068F508}']
+    function  Method1: WideString; stdcall;
+    function  Method2(const param: WideString): WideString; stdcall;
+    procedure Method3(const a: A; const b: B; out outa: A; out outb: B); stdcall;
+  end;
+
+function GetDefaultSoap(UseWSDL: Boolean=System.False; Addr: string=''; HTTPRIO: THTTPRIO = nil): DefaultSoap;
+
+
+implementation
+
+function GetDefaultSoap(UseWSDL: Boolean; Addr: string; HTTPRIO: THTTPRIO): DefaultSoap;
+const
+  defWSDL = 'http://localhost:16921/Default.asmx?wsdl';
+  defURL  = 'http://localhost:16921/Default.asmx';
+  defSvc  = 'Default';
+  defPrt  = 'DefaultSoap';
+var
+  RIO: THTTPRIO;
+begin
+  Result := nil;
+  if (Addr = '') then
+  begin
+    if UseWSDL then
+      Addr := defWSDL
+    else
+      Addr := defURL;
+  end;
+  if HTTPRIO = nil then
+    RIO := THTTPRIO.Create(nil)
+  else
+    RIO := HTTPRIO;
+  try
+    Result := (RIO as DefaultSoap);
+    if UseWSDL then
+    begin
+      RIO.WSDLLocation := Addr;
+      RIO.Service := defSvc;
+      RIO.Port := defPrt;
+    end else
+      RIO.URL := Addr;
+  finally
+    if (Result = nil) and (HTTPRIO = nil) then
+      RIO.Free;
+  end;
+end;
+
+
+initialization
+  InvRegistry.RegisterInterface(TypeInfo(DefaultSoap), 'http://tempuri.org/', 'utf-8');
+  InvRegistry.RegisterDefaultSOAPAction(TypeInfo(DefaultSoap), 'http://tempuri.org/%operationName%');
+  RemClassRegistry.RegisterXSClass(A, 'http://tempuri.org/', 'A');
+  RemClassRegistry.RegisterXSClass(B, 'http://tempuri.org/', 'B');
+
+end. 

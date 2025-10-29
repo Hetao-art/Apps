@@ -1,0 +1,6 @@
+SQLCA.DBMS = "O73 ORACLE 7.3"
+SQLCA.LogPass = "interface"
+SQLCA.ServerName = "@tns:test240" //his
+SQLCA.LogID = "interface"
+SQLCA.AutoCommit = FALSE
+SQLCA.DBParm = "PBCatalogOwner='interface'"

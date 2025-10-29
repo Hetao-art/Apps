@@ -1,0 +1,120 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls,InvokeRegistry, SOAPHTTPClient,RouteService, ComCtrls,IdHTTP,
+  IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+    TabSheet3: TTabSheet;
+    TabSheet4: TTabSheet;
+    RichEdit5001: TRichEdit;
+    RichEdit5002: TRichEdit;
+    RichEdit5003: TRichEdit;
+    RichEdit5004: TRichEdit;
+    Label1: TLabel;
+    MemoResult: TMemo;
+    IdHTTP1: TIdHTTP;
+    procedure Button1Click(Sender: TObject);
+ private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  service:TargetServiceInterface;
+  htype:headerType;
+  bType:bodyType;
+  routeId:WideString;
+  singDta:WideString;
+
+  outhtype:headerType;
+  outbType:bodyType;
+  outrouteId:WideString;
+  outsingDta:WideString;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  stm: TMemoryStream;
+  strList: TStringList;
+  ResponseStream : TStringStream; //返回信息
+  RequestStream : TStringStream;
+  str:WideString;
+
+begin
+
+    MemoResult.Lines.Clear();
+    MemoResult.Lines.Add('接口调用中，请稍候......');
+
+    case (PageControl1.TabIndex) of
+    0: str:=RichEdit5001.Lines.GetText();
+    1: str:=RichEdit5002.Lines.GetText();
+    2: str:=RichEdit5003.Lines.GetText();
+    3: str:=RichEdit5004.Lines.GetText();
+    end;
+
+    ResponseStream := TStringStream.Create('');
+    RequestStream := TStringStream.Create('');    
+	  RequestStream.WriteString('<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">');
+    RequestStream.WriteString('<soap:Body>');
+    RequestStream.WriteString('<execute xmlns="http://www.jhlss.gov.cn/esb/TargetService">');
+    RequestStream.WriteString('<routeId>ZG10JH0201</routeId>');
+    RequestStream.WriteString('<header>');
+    RequestStream.WriteString('<callerId>ZG00000002</callerId>');
+    RequestStream.WriteString('<userId>1104</userId>');
+    RequestStream.WriteString('<transId>string</transId>');
+    RequestStream.WriteString('<referenceId>string</referenceId>');
+    RequestStream.WriteString('<referenceTime>string</referenceTime>');
+    RequestStream.WriteString('<signType>string</signType>');
+    RequestStream.WriteString('<reserve>string</reserve>');
+    RequestStream.WriteString('<returnCode>string</returnCode>');
+    RequestStream.WriteString('<errorCode>string</errorCode>');
+    RequestStream.WriteString('<errorMsg>string</errorMsg>');
+    RequestStream.WriteString('</header>');
+    RequestStream.WriteString('<body>');
+    RequestStream.WriteString('<records>');
+    RequestStream.WriteString('<recordsType>');
+    RequestStream.WriteString('<type>string</type>');
+    RequestStream.WriteString('<record>string</record>');
+    RequestStream.WriteString('</recordsType>');
+    RequestStream.WriteString('<recordsType>');
+    RequestStream.WriteString('<type>string</type>');
+    RequestStream.WriteString('<record>string</record>');
+    RequestStream.WriteString('</recordsType>');
+    RequestStream.WriteString('</records>');
+    RequestStream.WriteString('<record>'+AnsiToUTF8(str)+'</record>');
+    RequestStream.WriteString('</body>');
+    RequestStream.WriteString('<signData>string</signData>');
+    RequestStream.WriteString('</execute>');
+    RequestStream.WriteString('</soap:Body>');
+    RequestStream.WriteString('</soap:Envelope>');
+
+  try
+
+    IdHTTP1.Request.ContentType :='text/xml;charset=utf-8';
+    IdHTTP1.Post('http://localhost:11031/WService.asmx?wsdl', RequestStream,ResponseStream);
+
+    MemoResult.Lines.Clear();
+    MemoResult.Lines.Add(UTF8Decode(ResponseStream.DataString));
+
+  finally
+      RequestStream.Free;
+      ResponseStream.Free;
+  end;
+
+end;
+
+end.

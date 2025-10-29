@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/08/21 14:35:06.498.pas,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\Unit2.pas=C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.pas</Transaction>
+    <Transaction>2017/08/21 14:45:56.300.pas,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.pas=</Transaction>
+    <Transaction>2017/08/21 14:45:56.300.dfm,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.dfm=</Transaction>
+    <Transaction>2017/08/21 15:03:57.394.pas,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.pas=</Transaction>
+    <Transaction>2017/08/21 15:03:57.394.dfm,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.dfm=</Transaction>
+    <Transaction>2017/08/21 15:08:35.919.pas,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\Unit2.pas=C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.pas</Transaction>
+    <Transaction>2017/08/21 15:19:06.127.pas,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.pas=</Transaction>
+    <Transaction>2017/08/21 15:26:29.128.pas,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.pas=</Transaction>
+    <Transaction>2017/08/21 15:26:29.128.dfm,C:\lixin\DrgsNew\Demo\标准接口Demo\DRGsDelphiExample\md5.dfm=</Transaction>
+    <Transaction>2017/08/22 09:40:08.842.pas,C:\lixin\DrgsNew\Demo\标准接口Demo\DelphiApiDemo\WService.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

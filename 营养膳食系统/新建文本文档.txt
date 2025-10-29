@@ -1,0 +1,51 @@
+黎明前的祈祷:
+出院病人营养评分大于等于3分
+
+黎明前的祈祷:
+select b.ksmc, count(*)
+  from zy_patient_information a, gy_ksdm b
+ where a.curr_ks = b.ksdm
+   and a.preout_date between
+       to_date('${开始日期} 00:00:00', 'yyyy-mm-dd hh24:mi:ss') and
+       to_date('${结束日期} 23:59:59', 'yyyy-mm-dd hh24:mi:ss')
+   and substr(a.record_flags, 4, 1) = 1
+ group by b.ksmc
+
+黎明前的祈祷:
+出院病人营养评分大于等于3分病邀请会诊
+
+黎明前的祈祷:
+select b.ksmc, count(*)
+  from zjhis.zy_patient_information a, zjhis.gy_ksdm b, emr.emr_huizhenjl c
+ where a.patient_no = c.bingrenxh
+   and c.shenqingks = b.ksdm
+   and a.preout_date between
+       to_date('${开始日期} 00:00:00', 'yyyy-mm-dd hh24:mi:ss') and
+       to_date('${结束日期} 23:59:59', 'yyyy-mm-dd hh24:mi:ss')
+   and c.yaoqingks = '10703000'
+ group by b.ksmc
+
+黎明前的祈祷:
+小于18岁出院病人营养评分
+
+黎明前的祈祷:
+select b.ksmc, count(*)
+  from zy_patient_information a, gy_ksdm b
+ where a.curr_ks = b.ksdm
+   and a.preout_date between
+       to_date('${开始日期} 00:00:00', 'yyyy-mm-dd hh24:mi:ss') and
+       to_date('${结束日期} 23:59:59', 'yyyy-mm-dd hh24:mi:ss')
+   and substr(a.record_flags, 4, 1) = 1
+   and TRUNC(MONTHS_BETWEEN(SYSDATE,a.birthday)/12)<18
+ group by b.ksmc
+
+
+
+
+
+
+
+----
+
+detail_charge序列
+zy_detail_charge_jlxh.nextval

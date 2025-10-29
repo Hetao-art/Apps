@@ -1,0 +1,26 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "..\\\u75c5\u7406\u9001\u68c0\u5355\\blsj.pbt";
+ 10 "..\\\u75c5\u533a\u836f\u623f\u53d1\u836f\u6838\u5bf9\\bqfysh.pbt";
+ 1 "..\\\u4f4f\u9662\u7535\u5b50\u4ea4\u73ed\\ejb.pbt";
+ 11 "..\\\u8425\u517b\u81b3\u98df\u7cfb\u7edf\\yyss.pbt";
+ 2 "..\\hqms2019\\hqms.pbt";
+ 12 "..\\\u8bca\u95f4\u9884\u7ea6\u8f6e\u8be2\\zjyy.pbt";
+ 3 "..\\\u8dcc\u5012\u8bc4\u5206\\diedao.pbt";
+ 13 "..\\B\u8d85\u6392\u961f\u53eb\u53f7\\B\u8d85\u4f4f\u9662\u53eb\u53f7\\sequence.pbt";
+ 4 "..\\\u6cbb\u7597\u7cfb\u7edf\\zlxt.pbt";
+ 14 "..\\B\u8d85\u6392\u961f\u53eb\u53f7\\\u663e\u793a\u5c4f\\yyhj-bc\\yyhj.pbt";
+ 5 "..\\\u53e3\u8154\u79d1\u6392\u961f\\\u524d\u53f0\u5206\u68c0\\kqfj.pbt";
+ 15 "..\\\u4f4f\u9662\u626b\u7801\u5bf9\u7167\u5de5\u5177\\ypyptz.pbt";
+ 6 "..\\connectMysql\\connmysql.pbt";
+ 16 "..\\\u4f4f\u9662\u626b\u7801\\zysm.pbt";
+ 7 "..\\\u75c5\u533a\u5de5\u4f5c\u65e5\u5fd7\\bqgzrq.pbt";
+ 17 "..\\CT\u6392\u961f\u5e8f\u5217\\sequence.pbt";
+ 8 "..\\\u4e34\u5e8a\u8def\u5f84\u5931\u6548\u836f\u54c1\u76d1\u6d4b\\drugmointer.pbt";
+ 18 "..\\\u5355\u4f4d\u5b58\u6b3e\u5355\\dwckd.pbt";
+ 9 "..\\\u9aa8\u9f84\u8bc4\u6d4b\\glcp.pbt";
+@end;
+DefaultTarget "..\\B\u8d85\u6392\u961f\u53eb\u53f7\\B\u8d85\u4f4f\u9662\u53eb\u53f7\\sequence.pbt";
+DefaultRemoteTarget "..\\B\u8d85\u6392\u961f\u53eb\u53f7\\B\u8d85\u4f4f\u9662\u53eb\u53f7\\sequence.pbt";

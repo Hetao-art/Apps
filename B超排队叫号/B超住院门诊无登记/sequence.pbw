@@ -1,0 +1,12 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "..\\\u533b\u4fdd\u836f\u54c1\u8c03\u6574\u4e0e\u8c03\u4ef7\u5de5\u5177\\ypyptz.pbt";
+ 1 "sequence.pbt";
+ 2 "E:\\yyhj\\yyhj.pbt";
+ 3 "..\\\u81ea\u52a8\u66f4\u65b0\\autosycn.pbt";
+ 4 "..\\\u8bca\u95f4\u9884\u7ea6\u8f6e\u8be2\\zjyy.pbt";
+@end;
+DefaultTarget "sequence.pbt";
+DefaultRemoteTarget "sequence.pbt";

@@ -1,0 +1,70 @@
+02/18/2020 09:10:59	*****LOG FILE OPENED*****
+02/18/2020 09:10:59	Copying: \\192.168.0.240\zjhis\sequence\autosycn.usr.opt to D:\zjhis\testself\autosycn.usr.opt
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\jdsh.pbl to D:\zjhis\testself\jdsh.pbl
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\jdsh.pbt to D:\zjhis\testself\jdsh.pbt
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\medicare_nvobj.pbd to D:\zjhis\testself\medicare_nvobj.pbd
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\medicare_nvobj.pbl to D:\zjhis\testself\medicare_nvobj.pbl
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\medicare_support.pbd to D:\zjhis\testself\medicare_support.pbd
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\medicare_support.pbl to D:\zjhis\testself\medicare_support.pbl
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\medicare_vobj.pbd to D:\zjhis\testself\medicare_vobj.pbd
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\medicare_vobj.pbl to D:\zjhis\testself\medicare_vobj.pbl
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\menuoper.pbd to D:\zjhis\testself\menuoper.pbd
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\menuoper.pbl to D:\zjhis\testself\menuoper.pbl
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\MSCOMCTL.OCX to D:\zjhis\testself\MSCOMCTL.OCX
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\reg.bat to D:\zjhis\testself\reg.bat
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\sequence.exe to D:\zjhis\testself\sequence.exe
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\sequence.pbd to D:\zjhis\testself\sequence.pbd
+02/18/2020 09:11:00	Copying: \\192.168.0.240\zjhis\sequence\sequence.pbl to D:\zjhis\testself\sequence.pbl
+02/18/2020 09:11:01	Copying: \\192.168.0.240\zjhis\sequence\sequence.pbt to D:\zjhis\testself\sequence.pbt
+02/18/2020 09:11:01	Copying: \\192.168.0.240\zjhis\sequence\sequence.pbw to D:\zjhis\testself\sequence.pbw
+02/18/2020 09:11:01	Copying: \\192.168.0.240\zjhis\sequence\sequence.usr.opt to D:\zjhis\testself\sequence.usr.opt
+02/18/2020 09:11:01	Copying: \\192.168.0.240\zjhis\sequence\toolbar.pbd to D:\zjhis\testself\toolbar.pbd
+02/18/2020 09:11:01	Copying: \\192.168.0.240\zjhis\sequence\toolbar.pbl to D:\zjhis\testself\toolbar.pbl
+02/18/2020 09:11:01	*****END OF LOG*****
+02/18/2020 09:12:16	*****LOG FILE OPENED*****
+02/18/2020 09:12:16	*****END OF LOG*****
+02/18/2020 09:13:29	*****LOG FILE OPENED*****
+02/18/2020 09:13:29	*****END OF LOG*****
+02/18/2020 09:14:34	*****LOG FILE OPENED*****
+02/18/2020 09:14:34	*****END OF LOG*****
+02/18/2020 09:15:43	*****LOG FILE OPENED*****
+02/18/2020 09:15:43	Copying: \\192.168.0.240\zjhis\sequence\附件7.电子健康卡自费支付测试说明.docx to D:\zjhis\testself\附件7.电子健康卡自费支付测试说明.docx
+02/18/2020 09:15:43	*****END OF LOG*****
+02/18/2020 09:18:46	*****LOG FILE OPENED*****
+02/18/2020 09:18:47	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 09:18:47	*****END OF LOG*****
+02/18/2020 09:20:45	*****LOG FILE OPENED*****
+02/18/2020 09:20:46	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 09:20:46	*****END OF LOG*****
+02/18/2020 09:21:32	*****LOG FILE OPENED*****
+02/18/2020 09:21:32	Copying: \\192.168.0.240\zjhis\sequence\medicare_nvobj.pbd to D:\zjhis\testself\medicare_nvobj.pbd
+02/18/2020 09:21:32	Copying: \\192.168.0.240\zjhis\sequence\medicare_nvobj.pbl to D:\zjhis\testself\medicare_nvobj.pbl
+02/18/2020 09:21:32	Copying: \\192.168.0.240\zjhis\sequence\medicare_support.pbd to D:\zjhis\testself\medicare_support.pbd
+02/18/2020 09:21:32	Copying: \\192.168.0.240\zjhis\sequence\medicare_support.pbl to D:\zjhis\testself\medicare_support.pbl
+02/18/2020 09:21:32	Copying: \\192.168.0.240\zjhis\sequence\medicare_vobj.pbd to D:\zjhis\testself\medicare_vobj.pbd
+02/18/2020 09:21:32	Copying: \\192.168.0.240\zjhis\sequence\menuoper.pbd to D:\zjhis\testself\menuoper.pbd
+02/18/2020 09:21:33	Copying: \\192.168.0.240\zjhis\sequence\MSCOMCTL.OCX to D:\zjhis\testself\MSCOMCTL.OCX
+02/18/2020 09:21:33	Copying: \\192.168.0.240\zjhis\sequence\sequence.exe to D:\zjhis\testself\sequence.exe
+02/18/2020 09:21:33	Copying: \\192.168.0.240\zjhis\sequence\sequence.pbd to D:\zjhis\testself\sequence.pbd
+02/18/2020 09:21:33	Copying: \\192.168.0.240\zjhis\sequence\sequence.pbl to D:\zjhis\testself\sequence.pbl
+02/18/2020 09:21:33	Copying: \\192.168.0.240\zjhis\sequence\附件7.电子健康卡自费支付测试说明.docx to D:\zjhis\testself\附件7.电子健康卡自费支付测试说明.docx
+02/18/2020 09:21:34	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 09:21:34	*****END OF LOG*****
+02/18/2020 09:40:44	*****LOG FILE OPENED*****
+02/18/2020 09:40:46	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 09:40:46	*****END OF LOG*****
+02/18/2020 09:40:58	*****LOG FILE OPENED*****
+02/18/2020 09:40:59	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 09:40:59	*****END OF LOG*****
+02/18/2020 09:41:15	*****LOG FILE OPENED*****
+02/18/2020 09:41:16	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 09:41:16	*****END OF LOG*****
+02/18/2020 10:02:34	*****LOG FILE OPENED*****
+02/18/2020 10:02:35	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 10:02:35	*****END OF LOG*****
+02/18/2020 10:11:04	*****LOG FILE OPENED*****
+02/18/2020 10:11:05	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 10:11:05	*****END OF LOG*****
+02/18/2020 10:12:22	*****LOG FILE OPENED*****
+02/18/2020 10:12:23	Executing: D:\zjhis\testself\sequence.exe Parms: 
+02/18/2020 10:12:23	*****END OF LOG*****

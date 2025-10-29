@@ -1,0 +1,8 @@
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\bin\Release\CSharpApiDemo.exe.config
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\bin\Release\CSharpApiDemo.exe
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\bin\Release\CSharpApiDemo.pdb
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\obj\Release\CSharpApiDemo.Form1.resources
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\obj\Release\CSharpApiDemo.Properties.Resources.resources
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\obj\Release\CSharpApiDemo.csproj.GenerateResource.Cache
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\obj\Release\CSharpApiDemo.exe
+C:\DRGs\Demo\标准接口Demo\CSharpApiDemo\CSharpApiDemo\obj\Release\CSharpApiDemo.pdb

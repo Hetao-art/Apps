@@ -1,0 +1,19 @@
+[start]
+show=0
+cancel=0
+[variables]
+sourcedir=\\192.168.0.240\zjhis\101啎潰煦淖\
+targetdir=D:\zjhis\視給ぜ煦
+program= diedao.exe
+[login]
+user=public
+pwd=
+[sync]
+syncop0=/src %sourcedir%*.* /dest %targetdir%*.* /d /s
+[log]
+file=%targetdir%autoupdate.log
+replace=0
+verbose=2
+[end]
+exec= D:\zjhis\視給ぜ煦\diedao.exe
+parm=

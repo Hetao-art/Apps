@@ -1,0 +1,9 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "kqfj.pbt";
+ 1 "..\\..\\\u8dcc\u5012\u8bc4\u5206\\diedao.pbt";
+@end;
+DefaultTarget "..\\..\\\u8dcc\u5012\u8bc4\u5206\\diedao.pbt";
+DefaultRemoteTarget "..\\..\\\u8dcc\u5012\u8bc4\u5206\\diedao.pbt";

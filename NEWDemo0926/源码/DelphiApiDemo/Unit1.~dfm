@@ -1,0 +1,353 @@
+object Form1: TForm1
+  Left = 349
+  Top = 116
+  Width = 1095
+  Height = 585
+  Caption = #20013#24515#31471#25509#21475'Demo'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 272
+    Width = 48
+    Height = 13
+    Caption = #36820#22238#32467#26524
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 512
+    Width = 153
+    Height = 25
+    Caption = #35843#29992#30149#26696#20449#24687#25509#21475
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 1079
+    Height = 265
+    ActivePage = TabSheet1
+    Align = alTop
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = #30149#26696#20449#24687#19978#20256'5001'
+      object RichEdit5001: TRichEdit
+        Left = 0
+        Top = 0
+        Width = 1071
+        Height = 337
+        Align = alTop
+        Font.Charset = GB2312_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ImeName = #20013#25991'('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
+        Lines.Strings = (
+          '{'
+          '    "MessageHeader": {'
+          '         "MessageType": "5001",'
+          '        "IsZip": "0",'
+          '        "HospitalId": "1104",'
+          '        "HospitalRegion": "1",'
+          '        "IPAddress": "1",'
+          '        "MacAddress": "1",'
+          '        "BmiNo": "1104",'
+          '        "BmiNoIden": "1",'
+          '        "AdmissionNo": "1104",'
+          '        "InsuredPersonRegion": "1",'
+          '        "TransactionDate": "2016-06-12 17:57:08",'
+          '        "HospitalVerifyCode": "Q55NDUK4ZOwJnD+3qJxwiw=="'
+          '    },'
+          '    "Medical": {'
+          '       "OutBedNum": "1",'
+          '                "AdmissionDate": "2016-05-19 19:05:08",'
+          '                "DischargeDate": "2016-05-19 19:05:08",'
+          '                "DoctorCode": "4",'
+          #9#9#9#9'"DoctorName": "5",'
+          '                "IsDrugAllergy": "1",'
+          '                "AllergyDrugCode": "7",'
+          '                "AllergyDrugName": "8",'
+          #9#9#9#9'"IsPathologicalExamination": "9",'
+          '                "PathologyCode": "10",'
+          '                "IsHospitalInfected": "1",'
+          '                "HospitalInfectedCode": "12",'
+          '                "BloodTypeS": "13",'
+          '                "BloodTypeE": "14",'
+          '                "LeaveHospitalType": "15",'
+          '                "ChiefComplaint": "16",'
+          '                "MedicalHistory": "17",'
+          #9#9#9#9'"SurgeryHistory": "18",'
+          #9#9#9#9'"BloodTransHistory": "19",'
+          #9#9#9#9'"Marriage": "1",'
+          '                "Height": "120",'
+          '                "Weight": "40",'
+          #9#9#9#9'"NewbornDate": "2016-05-19 19:05:08",'
+          '                "NewbornWeight": "6",'
+          #9#9#9#9'"NewbornCurrentWeight": "14",'
+          '                "BearPregnancy": "0",'
+          '                "BearYie": "0",'
+          '                "AdmissionDiseaseId": "28",'
+          '                "AdmissionDiseaseName": "29",'
+          #9#9#9#9'"DiagnosePosition1": "30",'
+          '                "DischargeDiseaseId": "31",'
+          '                "DischargeDiseaseName": "32",'
+          #9#9#9#9'"DiagnosePosition2": "33",'
+          '                "Tsblbs": "34",'
+          '                "DiagnosisCode1": "35",'
+          '                "DiagnosisName1": "36",'
+          '                "DiagnosisCode2": "37",'
+          '                "DiagnosisName2": "38",'
+          '                "DiagnosisCode3": "39",'
+          '                "DiagnosisName3": "40",'
+          '                "DiagnosisCode4": "41",'
+          '                "DiagnosisName4": "42",'
+          '                "DiagnosisCode5": "43",'
+          '                "DiagnosisName5": "44",'
+          '                "DiagnosisCode6": "45",'
+          '                "DiagnosisName6": "46",'
+          '                "DiagnosisCode7": "47",'
+          '                "DiagnosisName7": "48",'
+          '                "DiagnosisCode8": "49",'
+          '                "DiagnosisName8": "50",'
+          '                "DiagnosisCode9": "51",'
+          '                "DiagnosisName9": "52",'
+          '                "DiagnosisCode10": "53",'
+          '                "DiagnosisName10": "54",'
+          '                "DiagnosisCode11": "55",'
+          '                "DiagnosisName11": "56",'
+          '                "DiagnosisCode12": "57",'
+          '                "DiagnosisName12": "58",'
+          '                "DiagnosisCode13": "59",'
+          '                "DiagnosisName13": "60",'
+          '                "DiagnosisCode14": "61",'
+          '                "DiagnosisName14": "62",'
+          '                "DiagnosisCode15": "63",'
+          '                "DiagnosisName15": "64",'
+          '                "DiagnosisCode16": "65",'
+          '                "DiagnosisName16": "66"'
+          '    },'
+          '    "ListCheck": ['
+          '        {'
+          '            "CheckId": "1",'
+          '                  "DepartmentCode": "2",'
+          '                  "DepartmentName": "3",'
+          '                  "ApplyProjectCode": "4",'
+          '                  "ApplyProjectName": "5",'
+          '                  "ApplyDoctor": "6",'
+          #9#9#9#9'  "ApplyDoctorName": "7",'
+          '                  "ApplyDatetime": "2016-05-19 19:05:08",'
+          '                  "ReportDatetime": "2016-05-19 19:05:08",'
+          '                  "CheckPositionCode": "10",'
+          '                  "Abnormal": "11",'
+          '                  "CheckResult": "12"'
+          '        },'
+          '        {'
+          '           "CheckId": "1",'
+          '                  "DepartmentCode": "2",'
+          '                  "DepartmentName": "3",'
+          '                  "ApplyProjectCode": "4",'
+          '                  "ApplyProjectName": "5",'
+          '                  "ApplyDoctor": "6",'
+          #9#9#9#9'  "ApplyDoctorName": "7",'
+          '                  "ApplyDatetime": "2016-05-19 19:05:08",'
+          '                  "ReportDatetime": "2016-05-19 19:05:08",'
+          '                  "CheckPositionCode": "10",'
+          '                  "Abnormal": "11",'
+          '                  "CheckResult": "12"'
+          '        }'
+          '    ],'
+          '    "ListOperation": ['
+          '        {'
+          '"OperationRecordNo": "1",'
+          '                  "OperationDoctorCode": "2",'
+          '                  "OperationDoctorName": "3",'
+          '                  "FirstOperdoctorcode": "4",'
+          '                  "FirstOperdoctorname": "5",'
+          '                  "SecondOperdoctorcode": "6",'
+          '                  "SecondOperdoctorname": "7",'
+          '                  "AnesthesiologistCode": "8",'
+          '                  "AnesthesiologistName": "9",'
+          '                  "OperationDate": "2016-05-19 19:05:08",'
+          #9#9#9#9'  "OperationFinishDate": "2016-05-19 19:05:08",'
+          '                  "AnaesthesiaType": "12",'
+          #9#9#9#9'  "IsComplication": "1",'
+          '                  "ComplicationCode": "14",'
+          '                  "ComplicationName": "15",'
+          #9#9#9#9'  "OperationRecord": "16",'
+          '                  "RecordDoctorCode": "17",'
+          '                  "RecordDoctorName": "18",'
+          '            "ListOperationDetail": ['
+          '                {'
+          '"OperationRecordNo": "1",'
+          #9#9#9#9#9'  "OperationNo": "2",'
+          '                      "OperationCode": "3",'
+          '                      "OperationName": "4",'
+          '                      "OperationLevel": "5",'
+          '                      "OperationIncisionClass": "6",'
+          '                      "OperationHealClass": "7",'
+          '                      "IsMajorIden": "1",'
+          '                      "IsIatrogenic": "1"'
+          '                }'
+          '            ]'
+          '        }'
+          '    ],'
+          '    "LeaveHospital": {'
+          '        "DischargeOutcome": "1",'
+          '                "HospitalizationSituation": "2",'
+          '                "DtProcess": "3",'
+          '                "LeaveHospitalStatus": "4",'
+          '                "LeaveDoctorAdvice": "5"'
+          '    }'
+          '}')
+        ParentFont = False
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = #30149#26696#20449#24687#26597#35810'5002'
+      ImageIndex = 1
+      object RichEdit5002: TRichEdit
+        Left = 0
+        Top = 0
+        Width = 1071
+        Height = 333
+        Align = alTop
+        Font.Charset = GB2312_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ImeName = #20013#25991'('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
+        Lines.Strings = (
+          '{'
+          '    "MessageHeader": {'
+          '        "MessageType": "5002",'
+          '        "IsZip": "0",'
+          '        "HospitalId": "1104",'
+          '        "HospitalRegion": "1",'
+          '        "IPAddress": "1",'
+          '        "MacAddress": "1",'
+          '        "BmiNo": "1104",'
+          '        "BmiNoIden": "1",'
+          '        "AdmissionNo": "1104",'
+          '        "InsuredPersonRegion": "1",'
+          '        "TransactionDate": "2016-06-12 17:57:08",'
+          '        "HospitalVerifyCode": "Q55NDUK4ZOwJnD+3qJxwiw=="'
+          '    }'
+          '}')
+        ParentFont = False
+        TabOrder = 0
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = #30149#26696#20449#24687#20316#24223'5003'
+      ImageIndex = 2
+      object RichEdit5003: TRichEdit
+        Left = 0
+        Top = 0
+        Width = 1071
+        Height = 337
+        Align = alTop
+        Font.Charset = GB2312_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ImeName = #20013#25991'('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
+        Lines.Strings = (
+          '{'
+          '    "MessageHeader": {'
+          '        "MessageType": "5003",'
+          '        "IsZip": "0",'
+          '        "HospitalId": "1104",'
+          '        "HospitalRegion": "1",'
+          '        "IPAddress": "1",'
+          '        "MacAddress": "1",'
+          '        "BmiNo": "1104",'
+          '        "BmiNoIden": "1",'
+          '        "AdmissionNo": "1104",'
+          '        "InsuredPersonRegion": "1",'
+          '        "TransactionDate": "2016-06-12 17:57:08",'
+          '        "HospitalVerifyCode": "Q55NDUK4ZOwJnD+3qJxwiw=="'
+          '    }'
+          '}')
+        ParentFont = False
+        TabOrder = 0
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = #21307#30103#26426#26500#26657#39564#30721#20462#25913'5004'
+      ImageIndex = 3
+      object RichEdit5004: TRichEdit
+        Left = 0
+        Top = 0
+        Width = 1071
+        Height = 337
+        Align = alTop
+        Font.Charset = GB2312_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ImeName = #20013#25991'('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
+        Lines.Strings = (
+          '{'
+          '    "MessageHeader": {'
+          '        "MessageType": "5004",'
+          '        "IsZip": "0",'
+          '        "HospitalId": "1104",'
+          '        "HospitalRegion": "1",'
+          '        "IPAddress": "1",'
+          '        "MacAddress": "1",'
+          '        "BmiNo": "1104",'
+          '        "BmiNoIden": "1",'
+          '        "AdmissionNo": "1104",'
+          '        "InsuredPersonRegion": "1",'
+          '        "TransactionDate": "2016-06-12 17:57:08",'
+          '        "HospitalVerifyCode": "Q55NDUK4ZOwJnD+3qJxwiw=="'
+          '    },'
+          '    "ModifiedHospitalVerifyCode":"11234"'
+          '}')
+        ParentFont = False
+        TabOrder = 0
+      end
+    end
+  end
+  object MemoResult: TMemo
+    Left = 0
+    Top = 288
+    Width = 1081
+    Height = 217
+    Align = alCustom
+    ImeName = #20013#25991'('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
+    ScrollBars = ssVertical
+    TabOrder = 2
+  end
+  object IdHTTP1: TIdHTTP
+    MaxLineAction = maException
+    ReadTimeout = 0
+    AllowCookies = True
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.ContentRangeEnd = 0
+    Request.ContentRangeStart = 0
+    Request.ContentType = 'text/html'
+    Request.Accept = 'text/html, */*'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    HTTPOptions = [hoForceEncodeParams]
+    Left = 264
+    Top = 264
+  end
+end
